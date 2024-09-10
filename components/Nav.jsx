@@ -6,7 +6,7 @@ import { signIn, signOut, useSession, getProviders } from 'next-auth/react';
 
 function Nav() {
   return (
-    <div>Nav</div>
+    <div className="text-grdient from-red-600 via-violet-800 to-green-800">Nav</div>
   )
 }
 
